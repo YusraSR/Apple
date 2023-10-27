@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+
+}
+.container{
+    padding: 10PX 10%;
+
+}
+#header{
+    width: 100%;
+    height: 120vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+.iphone img{
+    width: 120%;
+    height: 70vh;
+
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+   
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.logo{
+   margin-top: auto;
+    width: 30px;
+    
+}
+nav ul li a img{
+    width: 30px;
+    
+}
+nav ul li a img{
+    width: 30px;
+    
+}
+.heading {
+    margin: auto;
+    justify-content:space-between;
+   text-align: center;
+    color: aliceblue;
+    display:inline-block;
+}
+.heading h1{
+    margin: 10px;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.heading p{
+    margin: 10px;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+}
+.heading a{
+      text-decoration: none;
+      font-size: 20px;
+      color: blue;
+}
+.heading a{
+    text-decoration: none;
+}
+#next{
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url("images/next.jpg");
+    background-position:bottom ;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    margin-top:10px;
+}
+.heading{
+    padding: 2px 2%;
+}
+.page h1{
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.page p{
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    font-weight: italic;
+}
+.page a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+#watches{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    text-align: center;
+    margin-top: 10px;
+    padding: 50px;
+}
+.page3 h1{
+    color: white;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    font-weight: italic;
+}
+.page3 p{
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    font-weight: italic;
+
+}
+.page3 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+.page3 img{
+    width: 60px;
+}
+.image2 img{
+
+    justify-content: center;
+    width: 400px;
+    height: 50vh;
+    
+}
+.page1 h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.page1 p{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+.page1 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+.container2{
+    display: flex;
+    column-gap: 10px;}
+
+.page1{
+    height: 100vh;
+    width: 80%;
+    margin-left: 10px;
+    background-color: white;
+    background-image: url("images/ipaad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin-top: 10px;
+}
+.box2{
+    
+    height: 100vh;
+    margin: 10px;
+    width: 80%;
+    background-color: white;
+    background-image: url("images/vpp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+
+}
+.box2 h1{
+    color:black;
+    font-size: 20px;
+    margin-top: 400px;
+   
+}
+.box2 p{
+    color:black;
+    font-size: 20px;
+   margin-top: 50px;
+
+}
+.box2 a{
+    margin-top: 50px;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    
+}
+.container3{
+    display: flex;
+    column-gap: 10px;
+}
+.page5{
+    height: 100vh;
+    width: 80%;
+    margin-left: 10px;
+    background-color:whitesmoke;
+    background-image: url("images/mb.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    text-align: center;
+    background-position: bottom;
+    margin-top: 10px;
+}
+.page5 a{
+    text-decoration: none;
+    color: blue;
+}
+.box3{
+    height: 100vh;
+    margin-right: 10px;
+    width: 80%;
+    background-color: black;
+    background-image: url("images/airpods.jpg");
+    background-repeat: no-repeat;
+    background-size:700px;
+    text-align: center;
+    background-position: bottom;
+    margin-top: 10px;
+}
+.box3 h1{
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.box3 p{
+    color:white;
+    font-size: 20px;}
+    .box3 a{
+        color: blue;
+        text-decoration: none;
+    }
+.container4{
+    display: flex;
+    column-gap: 10px;
+}
+.page6{
+    height: 100vh;
+    width: 80%;
+    background-color:whitesmoke;
+    background-image: url( "images/bbr.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    text-align: center;
+    background-position: bottom;
+    margin-top: 10px;
+}
+.box4{
+    height: 100vh;
+    width: 80%;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    background-image: url("images/four.jpg");
+    background-repeat: no-repeat;
+    background-size:400px;
+    text-align: center;
+    background-position: bottom;
+}
+.page6 a{
+    text-decoration: none;
+    color: blue;
+}
+.box4 a{
+    text-decoration: none;
+    color: blue
+    ;
+}
+.box5 p{
+    padding: 30px 30px;
+    background-color: whitesmoke;
+    font-size: 14px;
+}
